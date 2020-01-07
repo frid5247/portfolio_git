@@ -1,0 +1,580 @@
+/*generelle indstillinger*/
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/****/
+/*boks1*/
+#boks1 .red {
+    background-color: red;
+    top: 10vw;
+    left: 30vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks1 .text {
+    position: absolute;
+    top: 20vw;
+    left: 44vw;
+    visibility: hidden;
+    font-size: 1.5rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks1:hover .text {
+    visibility: visible;
+}
+
+/****/
+/*boks2*/
+#boks2 .green {
+    background-color: green;
+    top: 31vw;
+    left: 52vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks2 .text {
+    position: absolute;
+    top: 40vw;
+    left: 67vw;
+    visibility: hidden;
+    font-size: 1.5rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks2:hover .text {
+    visibility: visible;
+}
+
+/****/
+/*boks3*/
+#boks3 .yellow {
+    background-color: yellow;
+    top: 10vw;
+    left: 52vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks3 .text {
+    position: absolute;
+    top: 20vw;
+    left: 65vw;
+    visibility: hidden;
+    font-size: 1.5rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks3:hover .text {
+    visibility: visible;
+}
+
+/****/
+/*boks4*/
+#boks4 .blue {
+    background-color: blue;
+    top: 31vw;
+    left: 30vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks4 .text {
+    position: absolute;
+    top: 40vw;
+    left: 43vw;
+    visibility: hidden;
+    font-size: 1.5rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks4:hover .text {
+    visibility: visible;
+}
+
+/****/
+/*boks5*/
+#boks5 .orange {
+    background-color: orange;
+    top: 20vw;
+    left: 41vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks5 .text {
+    position: absolute;
+    top: 31vw;
+    left: 30vw;
+    visibility: hidden;
+    font-size: 5rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks5:hover .text {
+    visibility: visible;
+}
+
+/****/
+/*boks6*/
+#boks6 .rosa {
+    background-color: hotpink;
+    top: 20vw;
+    left: 60vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks6 .text {
+    position: absolute;
+    top: 6vw;
+    left: 53vw;
+    visibility: hidden;
+    font-size: 5rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks6:hover .text {
+    visibility: visible;
+}
+
+/****/
+/*boks7*/
+#boks7 .turkos {
+    background-color: darkturquoise;
+    top: 20vw;
+    left: 21vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks7 .text {
+    position: absolute;
+    top: 6vw;
+    left: 10vw;
+    visibility: hidden;
+    font-size: 5rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks7:hover .text {
+    visibility: visible;
+}
+
+/****/
+/*boks8*/
+#boks8 .darkred {
+    background-color: #e33c50;
+    top: 20vw;
+    left: 33vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks8 .text {
+    position: absolute;
+    top: 4vw;
+    left: 19vw;
+    visibility: hidden;
+    font-size: 6rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks8:hover .text {
+    visibility: visible;
+}
+
+/****/
+
+
+/*boks9*/
+#boks9 .purple {
+    background-color: #af79e2;
+    top: 20vw;
+    left: 53vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks9 .text {
+    position: absolute;
+    top: 29vw;
+    left: 54vw;
+    visibility: hidden;
+    font-size: 6rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks9:hover .text {
+    visibility: visible;
+}
+
+/****/
+/*boks10*/
+#boks10 .starkgron {
+    background-color: #3bff00;
+    top: 20vw;
+    left: 33vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks10 .text {
+    position: absolute;
+    top: 30vw;
+    left: 28vw;
+    visibility: hidden;
+    font-size: 5rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks10:hover .text {
+    visibility: visible;
+}
+
+/****/
+/*boks11*/
+#boks11 .rosa {
+    background-color: #f1adfa;
+    top: 20vw;
+    left: 53vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+}
+
+#boks11 .text {
+    position: absolute;
+    top: 6vw;
+    left: 48vw;
+    visibility: hidden;
+    font-size: 5rem;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#boks11:hover .text {
+    visibility: visible;
+}
+
+/****/
+/****/
+
+#index a {
+    font-family: helvetica;
+    font-size: 4rem;
+    color: black;
+    font-weight: bold;
+    top: 2vw;
+    left: 2vw;
+    position: absolute;
+
+}
+
+#pil {
+    position: absolute;
+    top: 0.5vw;
+    left: 2vw;
+    width: 90px;
+    opacity: 50%;
+}
+
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 500px;
+    margin: 15px;
+    padding: 15px;
+}
+
+/**HTML-SITE**/
+#html {
+    background-color: red;
+}
+
+#html p {
+    font-family: Times new roman;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/***/
+/**UX SITE**/
+#ux {
+    margin-top: 60%;
+    background-color: green;
+}
+
+#ux p {
+    font-family: Times new roman;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 20px;
+}
+
+.col {
+    margin-bottom: 20%;
+}
+
+/*****/
+/**ANIMATION SITE**/
+#animation {
+    background-color: yellow;
+    margin-top: 60%;
+}
+
+#animation p {
+    font-family: Times new roman;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 20px;
+}
+
+/*****/
+/**INDHOLD SITE**/
+#indhold {
+    background-color: blue;
+    margin-top: 60%;
+}
+
+#indhold p {
+    font-family: Times new roman;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 20px;
+}
+
+.video_responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video_responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*****/
+/**FRIDAKARLSSON SITE**/
+#fridakarlsson {
+    background-image: url(bilder/frida.jpg);
+    background-color: #cccccc;
+    background-size: 100%;
+    margin-bottom: 45%;
+}
+
+#fridakarlsson p {
+    font-family: Times new roman;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 20px;
+}
+
+/*****/
+#index {
+    background-color: white;
+}
+
+
+/***/
+h1 {
+    font-family: helvetica;
+    font-size: 10rem;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Times new roman;
+    font-size: 2rem;
+    color: white;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: Times new roman;
+    font-size: 1rem;
+    color: white;
+}
+
+p #index {
+    font-family: Times new roman;
+    font-size: 1rem;
+    color: black;
+}
+
+a {
+    font-weight: bold;
+    text-decoration-line: none;
+    margin-left: 20px;
+    font-family: Times new roman;
+    font-size: 1.5rem;
+    color: white;
+    font-style: italic;
+}
+
+a:link {
+    color: #000;
+
+}
+
+embed {
+    width: 700px;
+    border-radius: 10px;
+    height: 800px;
+
+}
+
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 40px;
+    /* Place the button at the bottom of the page */
+    right: 50px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: white;
+    /* Set a background color */
+    opacity: 50%;
+    color: black;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 25px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 25px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: lightgrey;
+    /* Add a dark-grey background on hover */
+}
+
+
+@media only screen and (orientation:portrait) and (min-width:500px) {
+
+    a {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .text {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    #boks1 .red {
+        top: 20vw;
+    }
+
+    #boks2 .green {
+        top: 41vw;
+    }
+
+    #boks3 .yellow {
+        top: 20vw;
+    }
+
+    #boks4 .blue {
+        top: 41vw;
+    }
+
+    #boks5 .text {
+        font-size: 3rem;
+        top: 27vw;
+    }
+
+    #boks6 .text {
+        font-size: 3rem;
+        top: 3vw;
+    }
+
+    #boks7 .text {
+        font-size: 3rem;
+        top: 3vw;
+    }
+
+    #boks8 .text {
+        font-size: 2.5rem;
+        top: 2.5vw;
+    }
+
+    #boks9 .text {
+        font-size: 2.5rem;
+        top: 26vw;
+    }
+
+    #boks10 .text {
+        font-size: 2rem;
+        top: 29vw;
+    }
+
+    #boks11 .text {
+        font-size: 2rem;
+        top: 5vw;
+    }
+
+    embed {
+        width: 550px;
+        border-radius: 10px;
+        height: 700px;
+
+    }
+}
