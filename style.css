@@ -361,8 +361,20 @@ img {
 #animation p {
     font-family: Times new roman;
     font-size: 1.5rem;
-    color: white;
+    color: black;
     margin-left: 20px;
+}
+
+#animation h1 {
+    color: black;
+}
+
+#animation h2 {
+    color: black;
+}
+
+#animation a {
+    color: black;
 }
 
 /*****/
