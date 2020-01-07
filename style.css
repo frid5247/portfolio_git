@@ -323,7 +323,7 @@ img {
 /**UX SITE**/
 #ux {
     background-color: green;
-    margin-top: 100vw;
+    margin-top: 180vw;
 }
 
 #ux p {
@@ -355,7 +355,7 @@ img {
 /**ANIMATION SITE**/
 #animation {
     background-color: yellow;
-    margin-top: 100vw;
+    margin-top: 180vw;
 }
 
 #animation p {
@@ -381,7 +381,7 @@ img {
 /**INDHOLD SITE**/
 #indhold {
     background-color: blue;
-    margin-top: 100vw;
+    margin-top: 180vw;
 }
 
 #indhold p {
@@ -408,9 +408,6 @@ img {
 }
 
 /*****/
-
-
-
 /***/
 h1 {
     font-family: helvetica;
@@ -418,6 +415,7 @@ h1 {
     color: white;
     margin-left: 20px;
     font-weight: bold;
+    margin-top: 40vw;
 }
 
 h2 {
@@ -455,8 +453,6 @@ embed {
     height: 600px;
 }
 
-
-
 #myBtn {
     display: none;
     /* Hidden by default */
@@ -493,8 +489,21 @@ embed {
 
 @media only screen and (min-width:900px) {
 
+    #animation {
+        margin-top: 130vw;
+    }
+
+    #indhold {
+        margin-top: 130vw;
+    }
+
+    #ux {
+        margin-top: 130vw;
+    }
+
     h1 {
         font-size: 10rem;
+        margin-top: 10vw;
     }
 
     #index a {
@@ -568,80 +577,3 @@ embed {
         height: 800px;
     }
 }
-
-/*
-@media only screen and (orientation:portrait) and (min-width:500px) {
-    h1 {
-        font-size: 3rem;
-    }
-
-    .text {
-        font-size: 3rem;
-    }
-
-    p {
-        font-size: 2rem;
-    }
-
-    #boks1 .red {
-        top: 40vw;
-    }
-
-    #boks2 .green {
-        top: 61vw;
-    }
-
-    #boks3 .yellow {
-        top: 40vw;
-    }
-
-    #boks4 .blue {
-        top: 61vw;
-    }
-
-    #boks5 .text {
-        font-size: 3rem;
-        top: 27vw;
-    }
-
-    #boks6 .text {
-        font-size: 3rem;
-        top: 3vw;
-    }
-
-    #boks7 .text {
-        font-size: 3rem;
-        top: 3vw;
-    }
-
-    #boks8 .text {
-        font-size: 2.5rem;
-        top: 2.5vw;
-    }
-
-    #boks9 .text {
-        font-size: 2.5rem;
-        top: 26vw;
-    }
-
-    #boks10 .text {
-        font-size: 2rem;
-        top: 29vw;
-    }
-
-    #boks11 .text {
-        font-size: 2rem;
-        top: 5vw;
-    }
-
-    embed {
-        width: 400px;
-        height: 600px;
-    }
-
-    #index a {
-        font-size: 2rem;
-        top: 2vw;
-    }
-}*/
-/
