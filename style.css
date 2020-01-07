@@ -7,14 +7,12 @@ img {
     width: 100%;
 }
 
-
-
 /****/
 /*boks1*/
 #boks1 .red {
     background-color: red;
-    top: 10vw;
-    left: 30vw;
+    top: 20vw;
+    left: 34vw;
     position: absolute;
     width: 15vw;
     height: 15vw;
@@ -23,7 +21,7 @@ img {
 #boks1 .text {
     position: absolute;
     top: 20vw;
-    left: 44vw;
+    left: 34vw;
     visibility: hidden;
     font-size: 1.5rem;
     font-family: helvetica;
@@ -38,8 +36,8 @@ img {
 /*boks2*/
 #boks2 .green {
     background-color: green;
-    top: 31vw;
-    left: 52vw;
+    top: 37vw;
+    left: 51vw;
     position: absolute;
     width: 15vw;
     height: 15vw;
@@ -47,7 +45,7 @@ img {
 
 #boks2 .text {
     position: absolute;
-    top: 40vw;
+    top: 37vw;
     left: 67vw;
     visibility: hidden;
     font-size: 1.5rem;
@@ -63,8 +61,8 @@ img {
 /*boks3*/
 #boks3 .yellow {
     background-color: yellow;
-    top: 10vw;
-    left: 52vw;
+    top: 20vw;
+    left: 51vw;
     position: absolute;
     width: 15vw;
     height: 15vw;
@@ -88,8 +86,8 @@ img {
 /*boks4*/
 #boks4 .blue {
     background-color: blue;
-    top: 31vw;
-    left: 30vw;
+    top: 37vw;
+    left: 34vw;
     position: absolute;
     width: 15vw;
     height: 15vw;
@@ -97,8 +95,8 @@ img {
 
 #boks4 .text {
     position: absolute;
-    top: 40vw;
-    left: 43vw;
+    top: 37vw;
+    left: 27vw;
     visibility: hidden;
     font-size: 1.5rem;
     font-family: helvetica;
@@ -125,7 +123,7 @@ img {
     top: 31vw;
     left: 30vw;
     visibility: hidden;
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: helvetica;
     font-weight: bold;
 }
@@ -150,7 +148,7 @@ img {
     top: 6vw;
     left: 53vw;
     visibility: hidden;
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: helvetica;
     font-weight: bold;
 }
@@ -175,7 +173,7 @@ img {
     top: 6vw;
     left: 10vw;
     visibility: hidden;
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: helvetica;
     font-weight: bold;
 }
@@ -197,10 +195,10 @@ img {
 
 #boks8 .text {
     position: absolute;
-    top: 4vw;
-    left: 19vw;
+    top: 5vw;
+    left: 22vw;
     visibility: hidden;
-    font-size: 6rem;
+    font-size: 2rem;
     font-family: helvetica;
     font-weight: bold;
 }
@@ -225,9 +223,9 @@ img {
 #boks9 .text {
     position: absolute;
     top: 29vw;
-    left: 54vw;
+    left: 55vw;
     visibility: hidden;
-    font-size: 6rem;
+    font-size: 2rem;
     font-family: helvetica;
     font-weight: bold;
 }
@@ -252,7 +250,7 @@ img {
     top: 30vw;
     left: 28vw;
     visibility: hidden;
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: helvetica;
     font-weight: bold;
 }
@@ -274,10 +272,10 @@ img {
 
 #boks11 .text {
     position: absolute;
-    top: 6vw;
+    top: 5vw;
     left: 48vw;
     visibility: hidden;
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: helvetica;
     font-weight: bold;
 }
@@ -288,18 +286,6 @@ img {
 
 /****/
 /****/
-
-#index a {
-    font-family: helvetica;
-    font-size: 4rem;
-    color: black;
-    font-weight: bold;
-    top: 2vw;
-    left: 2vw;
-    position: absolute;
-
-}
-
 #pil {
     position: absolute;
     top: 0.5vw;
@@ -319,6 +305,7 @@ img {
     flex-basis: 500px;
     margin: 15px;
     padding: 15px;
+    margin-bottom: 20%;
 }
 
 /**HTML-SITE**/
@@ -335,8 +322,8 @@ img {
 /***/
 /**UX SITE**/
 #ux {
-    margin-top: 60%;
     background-color: green;
+    margin-top: 100vw;
 }
 
 #ux p {
@@ -346,15 +333,29 @@ img {
     margin-left: 20px;
 }
 
-.col {
-    margin-bottom: 20%;
-}
+
 
 /*****/
+/**INDEX**/
+#index a {
+    font-family: helvetica;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    top: 5vw;
+    left: 12vw;
+    position: absolute;
+
+}
+
+#index {
+    background-color: white;
+}
+
 /**ANIMATION SITE**/
 #animation {
     background-color: yellow;
-    margin-top: 60%;
+    margin-top: 100vw;
 }
 
 #animation p {
@@ -368,7 +369,7 @@ img {
 /**INDHOLD SITE**/
 #indhold {
     background-color: blue;
-    margin-top: 60%;
+    margin-top: 100vw;
 }
 
 #indhold p {
@@ -378,28 +379,13 @@ img {
     margin-left: 20px;
 }
 
-.video_responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-}
-
-.video_responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
 /*****/
 /**FRIDAKARLSSON SITE**/
 #fridakarlsson {
     background-image: url(bilder/frida.jpg);
     background-color: #cccccc;
     background-size: 100%;
-    margin-bottom: 45%;
+    margin-bottom: 30%;
 }
 
 #fridakarlsson p {
@@ -410,15 +396,13 @@ img {
 }
 
 /*****/
-#index {
-    background-color: white;
-}
+
 
 
 /***/
 h1 {
     font-family: helvetica;
-    font-size: 10rem;
+    font-size: 3rem;
     color: white;
     margin-left: 20px;
     font-weight: bold;
@@ -453,17 +437,12 @@ a {
     font-style: italic;
 }
 
-a:link {
-    color: #000;
-
-}
-
 embed {
-    width: 700px;
+    width: 400px;
     border-radius: 10px;
-    height: 800px;
-
+    height: 600px;
 }
+
 
 
 #myBtn {
@@ -498,18 +477,90 @@ embed {
 
 #myBtn:hover {
     background-color: lightgrey;
-    /* Add a dark-grey background on hover */
 }
 
-
-@media only screen and (orientation:portrait) and (min-width:500px) {
-
-    a {
-        font-size: 2rem;
-    }
+@media only screen and (min-width:900px) {
 
     h1 {
-        font-size: 4rem;
+        font-size: 10rem;
+    }
+
+    #index a {
+        font-size: 7rem;
+        top: 2vw;
+        left: 5vw;
+    }
+
+    #boks1 .red {
+        top: 14vw;
+    }
+
+    #boks2 .green {
+        top: 31vw;
+    }
+
+    #boks2 .text {
+        left: 66.4vw;
+    }
+
+    #boks3 .yellow {
+        top: 14vw;
+    }
+
+    #boks4 .blue {
+        top: 31vw;
+    }
+
+    #boks4 .text {
+        left: 32vw;
+    }
+
+    #boks5 .text {
+        font-size: 5rem;
+        top: 30vw;
+    }
+
+    #boks6 .text {
+        font-size: 5rem;
+        top: 6vw;
+    }
+
+    #boks7 .text {
+        font-size: 5rem;
+        top: 6vw;
+    }
+
+    #boks8 .text {
+        font-size: 5rem;
+        top: 6vw;
+    }
+
+    #boks9 .text {
+        font-size: 5rem;
+        top: 29vw;
+    }
+
+    #boks10 .text {
+        font-size: 5rem;
+        top: 29vw;
+    }
+
+    #boks11 .text {
+        font-size: 5rem;
+        top: 6vw;
+    }
+
+    embed {
+        width: 700px;
+        border-radius: 10px;
+        height: 800px;
+    }
+}
+
+/*
+@media only screen and (orientation:portrait) and (min-width:500px) {
+    h1 {
+        font-size: 3rem;
     }
 
     .text {
@@ -517,23 +568,23 @@ embed {
     }
 
     p {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #boks1 .red {
-        top: 20vw;
+        top: 40vw;
     }
 
     #boks2 .green {
-        top: 41vw;
+        top: 61vw;
     }
 
     #boks3 .yellow {
-        top: 20vw;
+        top: 40vw;
     }
 
     #boks4 .blue {
-        top: 41vw;
+        top: 61vw;
     }
 
     #boks5 .text {
@@ -572,9 +623,13 @@ embed {
     }
 
     embed {
-        width: 550px;
-        border-radius: 10px;
-        height: 700px;
-
+        width: 400px;
+        height: 600px;
     }
-}
+
+    #index a {
+        font-size: 2rem;
+        top: 2vw;
+    }
+}*/
+/
